@@ -1,7 +1,7 @@
 {
   "name": "export-for-zenn",
   "main": "./lib/export-for-zenn",
-  "version": "0.0.0",
+  "version": "0.1.0",
   "description": "Export note for Zenn CLI.",
   "keywords": [],
   "repository": "https://github.com/tubame0505/inkdrop-export-for-zenn",
