@@ -1,0 +1,26 @@
+{
+  "context-menu": {
+    ".note-list-item-view": [
+      {
+        "label": "Export for Zenn..",
+        "command": "export-for-zenn:selections"
+      }
+    ]
+  },
+  "menu": [
+    {
+      "label": "File",
+      "submenu": [
+        {
+          "label": "Export",
+          "submenu": [
+            {
+              "label": "Export for Zenn..",
+              "command": "export-for-zenn:selections"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

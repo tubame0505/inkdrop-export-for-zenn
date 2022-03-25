@@ -1,28 +1,17 @@
 {
-  "version": "1.3.0",
-  "name": "export-as-markdown",
-  "description": "Export as markdown",
-  "repository": {
-    "type": "git",
-    "url": "https://github.com/inkdropapp/inkdrop-export-as-markdown.git"
-  },
-  "main": "lib/index.js",
-  "styleSheets": [],
-  "scripts": {
-    "lint": "eslint lib"
+  "name": "export-for-zenn",
+  "main": "./lib/export-for-zenn",
+  "version": "1.0.0",
+  "description": "Export note for Zenn CLI.",
+  "keywords": [],
+  "repository": "https://github.com/tubame0505/inkdrop-export-for-zenn",
+  "license": "MIT",
+  "engines": {
+    "inkdrop": "^5.3.1"
   },
   "dependencies": {
     "inkdrop-export-utils": "^3.2.7",
     "sanitize-filename": "^1.6.3",
     "touch": "^3.1.0"
-  },
-  "devDependencies": {
-    "eslint": "^8.3.0",
-    "eslint-config-prettier": "^8.3.0",
-    "eslint-plugin-react": "^7.27.1",
-    "prettier": "^2.5.0"
-  },
-  "engines": {
-    "inkdrop": "^5.x"
   }
 }
